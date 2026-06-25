@@ -1,0 +1,34 @@
+/* Neo-Brutalism Design Tokens */
+
+:root {
+  /* Borders */
+  --nb-border-width: 3px;
+  --nb-border-color: #000000;
+  --nb-border: var(--nb-border-width) solid var(--nb-border-color);
+
+  /* Radius */
+  --nb-radius: 6px;
+  --nb-radius-sm: 4px;
+  --nb-radius-lg: 8px;
+
+  /* Typography */
+  --nb-font-heading: "Space Grotesk", system-ui, sans-serif;
+  --nb-font-body: "DM Sans", system-ui, sans-serif;
+
+  /* Shared non-color tokens */
+  --nb-input-bg: #ffffff;
+  --nb-ring: #000000;
+  --nb-overlay: rgb(0 0 0 / 60%);
+  --nb-shadow-xs: 1px 1px 0 0 #000000;
+  --nb-shadow-hover: 2px 2px 0 0 #000000;
+  --nb-shadow-active: 0px 0px 0 0 #000000;
+  --radius: var(--nb-radius);
+}
+
+.dark {
+  --nb-ring: #ffffff;
+  --nb-overlay: rgb(0 0 0 / 75%);
+  --nb-shadow-xs: 1px 1px 0 0 #ffffff;
+  --nb-shadow-hover: 2px 2px 0 0 #ffffff;
+  --nb-shadow-active: 0px 0px 0 0 #ffffff;
+}

@@ -1,0 +1,11 @@
+@import "../../../packages/ui/src/styles/globals.css";
+@source "../../../packages/ui/src";
+
+/* Docs site dark mode polish */
+.dark pre code {
+  color: var(--foreground);
+}
+
+.dark .rdp-root {
+  --rdp-background-color: var(--background);
+}
